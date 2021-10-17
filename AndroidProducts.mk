@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX2061.mk
+    $(LOCAL_DIR)/arrow_RMX2061.mk
+
+COMMON_LUNCH_CHOICES := \
+    arrow_miatoll-user \
+    arrow_miatoll-userdebug \
+    arrow_miatoll-eng
