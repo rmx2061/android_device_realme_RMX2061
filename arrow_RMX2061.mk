@@ -13,6 +13,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Inherit some common arrow stuff
 $(call inherit-product, vendor/arrow/config/common.mk)
 
+#ArrowOS Specifics
+#
+#
+
 # Device identifier
 PRODUCT_NAME := arrow_RMX2061
 PRODUCT_DEVICE := RMX2061
@@ -25,7 +29,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="atoll-user 11 RKQ1.200903.002/ eng.root.04080114.013112 release-keys"
 
-BUILD_FINGERPRINT := "google/redfin/redfin:12/SPB5.210812.002/7671067:user/release-keys"
+BUILD_FINGERPRINT := "google/raven/raven:12/SD1A.210817.015.A4/7697517:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX2061" \
