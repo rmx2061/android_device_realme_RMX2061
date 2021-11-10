@@ -35,6 +35,8 @@
                 <string ...>M -5,0 L -5,10 L 5,10 L 5,0 Z @dp</string>
          @see https://www.w3.org/TR/SVG/paths.html#PathData
     -->
-    <string name="config_mainBuiltInDisplayCutout">M -544,0 L -544,108 L -287,108 L -287,0 Z</string>
+	<string name="config_mainBuiltInDisplayCutout">M -544,0 L -544,108 L -287,108 L -287,0 Z</string>
+
+	<bool name="config_is_powerbutton_fps">true</bool>
 
 </resources>
